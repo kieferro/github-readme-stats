@@ -184,12 +184,22 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
         <g class="rank-text">
           <text
             x="-5"
-            y="3"
+            y="-2"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
           >
             ${rank.level}
+          </text>
+          <text
+            x="-5"
+            y="20"
+            alignment-baseline="central"
+            dominant-baseline="central"
+            text-anchor="middle"
+            style="font: 11px 'Segoe UI', Ubuntu, Sans-Serif !important;"
+          >
+            Top ${rank.score}%
           </text>
         </g>
       </g>`;
