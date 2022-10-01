@@ -82,7 +82,7 @@ const getStyles = ({
     }
     .rank-text {
       font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor}; 
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
+      animation: scaleInAnimation 0s ease-in-out forwards;
     }
     
     .bold { font-weight: 700 }
@@ -106,7 +106,7 @@ const getStyles = ({
       opacity: 0.8;
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
+      animation: rankAnimation 1.5s forwards ease-in-out;
     }
     ${process.env.NODE_ENV === "test" ? "" : getProgressAnimation({ progress })}
   `;
