@@ -199,7 +199,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
             text-anchor="middle"
             style="font: 11px 'Segoe UI', Ubuntu, Sans-Serif !important;"
           >
-            Top ${rank.score}%
+            Top ${Number(rank.score).toFixed(1)}%
           </text>
         </g>
       </g>`;
