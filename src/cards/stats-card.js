@@ -197,9 +197,9 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
-            style="font: 11px 'Segoe UI', Ubuntu, Sans-Serif !important;"
+            style="font: 10.5px 'Segoe UI', Ubuntu, Sans-Serif !important;"
           >
-            Top ${(Math.ceil(rank.score*10)/10).toFixed(1)}%
+            Top ${(Math.ceil(rank.score*100)/100).toFixed(2)}%
           </text>
         </g>
       </g>`;
